@@ -1,0 +1,14 @@
+services:
+  bangla:
+    build: .
+    image: bangla-ocr-app:0.1
+    ports:
+      - "127.0.0.1:8501:8501"   # the app
+      - "127.0.0.1:5000:5000"   # the MLflow UI
+    environment:
+      START_MLFLOW_UI: "1"
+      MLFLOW_UI_HOST: "0.0.0.0"
+    volumes:
+      - mlflow-data:/app/artifacts/mlflow
+volumes:
+  mlflow-data:

@@ -1,0 +1,10 @@
+# NOT ignored on purpose: models/ and artifacts/ (docker build needs the trained models and the MLflow store)
+work/
+data/
+venv*/
+.venv*/
+__pycache__/
+*.pyc
+*.zip
+*.log
+.ipynb_checkpoints/

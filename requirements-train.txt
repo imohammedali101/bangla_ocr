@@ -1,0 +1,7 @@
+# ONLY for training the models from scratch (python train.py train ...). Not needed for anything else.
+-r requirements.txt
+torch
+timm
+scikit-image
+openpyxl
+onnx

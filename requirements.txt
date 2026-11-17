@@ -1,0 +1,11 @@
+# ONE environment for everything: python train.py, python train.py predict, mlflow ui, the Streamlit app, and the Docker image.
+# Any Python from 3.10 up (checked for Windows with 3.12, 3.13 and 3.14).
+mlflow==3.17.2        # pinned: an MLflow database only opens with the MLflow version that wrote it (laptop and Docker must match)
+streamlit>=1.38
+streamlit-drawable-canvas==0.9.3
+numpy
+pandas
+pillow
+matplotlib
+onnxruntime
+opencv-python-headless
