@@ -1,0 +1,51 @@
+{
+ "models": {
+  "model1": {
+   "T": 0.674,
+   "tau": {
+    "char": 0.98,
+    "low": 0.3
+   },
+   "preprocess": "v5",
+   "file": "model1_resnet.onnx",
+   "params": 2863361,
+   "size_mb": 11.453447,
+   "source": "notebook: bangla-hwr-v5.ipynb",
+   "split_valid": false,
+   "params_estimated": true
+  },
+  "model2": {
+   "T": 0.745,
+   "tau": {
+    "char": 0.98,
+    "low": 0.3
+   },
+   "preprocess": "v5",
+   "file": "model2_mobilenet.onnx",
+   "params": 1607560,
+   "size_mb": 6.430241,
+   "source": "notebook: bangla-hwr-v5.ipynb",
+   "split_valid": false,
+   "params_estimated": true
+  },
+  "model3": {
+   "T": 1.1,
+   "Tc": 1.1,
+   "Ta": 0.7,
+   "wa": 0.25,
+   "bonus": 4.0,
+   "tau": {
+    "ink": 0.3,
+    "char": 0.9600000000000006,
+    "number": 0.9450000000000007,
+    "word": 0.9000000000000006
+   },
+   "file": "model3_crnn.onnx",
+   "params": 1730000.0,
+   "size_mb": 6.916435,
+   "source": "notebook: bangla-hwr-model3-f.ipynb (training) + bangla-hwr-model3-eval.ipynb (testing)",
+   "split_valid": false,
+   "params_estimated": true
+  }
+ }
+}
