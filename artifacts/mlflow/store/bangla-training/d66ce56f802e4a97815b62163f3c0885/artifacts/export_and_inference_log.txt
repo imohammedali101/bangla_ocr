@@ -1,0 +1,7 @@
+[model1_resnet] FP32=10.92MB (Parity=100.00%) | INT8=2.82MB (Parity=99.20%, Ships=False)
+[model2_mobile] FP32=6.13MB (Parity=100.00%) | INT8=1.71MB (Parity=97.70%, Ships=False)
+[model3_crnn] FP32=14.63MB (Parity=100.00%) | INT8=14.49MB (Parity=99.99%, Ships=True)
+Inference Test (Character): {'text': 'অ', 'top3': ['অ', 'আ', 'ঝ'], 'confidence': 0.8333, 'decision': 'suggest'}
+Inference Test (Multi-Digit Number): {'text': '৮৮০০১২৬', 'top3': ['৮৮০০১২৬'], 'confidence': 0.933, 'decision': 'suggest'}
+Inference Test (Joined Whole Word): {'text': 'মানুষ', 'top3': ['মানুষ', 'গান', 'নুন'], 'confidence': 0.7617, 'decision': 'suggest'}
+Docker Release Files Ready: ['__pycache__', 'calibration.json', 'inference.py', 'labels.json', 'lexicon.txt', 'metrics.json', 'model1_resnet.onnx', 'model2_mobile.onnx', 'model3_crnn.onnx', 'model3_crnn_int8.onnx', 'preprocess.json', 'report.html', 'tokens.json']

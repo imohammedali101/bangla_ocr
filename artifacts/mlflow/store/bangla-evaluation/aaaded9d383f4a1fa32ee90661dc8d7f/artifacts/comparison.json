@@ -1,0 +1,46 @@
+[
+  {
+    "model": "Model 1 \u00b7 Lekha-ResNet",
+    "notebook": "bangla-hwr-v5.ipynb",
+    "glyph_top1": 0.9337000000000001,
+    "glyph_top3": 0.9822,
+    "ece": 0.0078000000000000005,
+    "numbers_exact": null,
+    "random_words_exact": null,
+    "onnx_fp32_mb": 10.92,
+    "cpu_ms_in_notebook": 16.4
+  },
+  {
+    "model": "Model 2 \u00b7 Lekha-Mobile",
+    "notebook": "bangla-hwr-v5.ipynb",
+    "glyph_top1": 0.9053,
+    "glyph_top3": 0.9737,
+    "ece": 0.0098,
+    "numbers_exact": null,
+    "random_words_exact": null,
+    "onnx_fp32_mb": 6.13,
+    "cpu_ms_in_notebook": 10.07
+  },
+  {
+    "model": "Model 3 \u00b7 Lekha-CRNN",
+    "notebook": "bangla-hwr-model3-f.ipynb (training) + bangla-hwr-model3-eval.ipynb (testing)",
+    "glyph_top1": 0.9286,
+    "glyph_top3": 0.98,
+    "ece": 0.0067,
+    "numbers_exact": 0.938,
+    "random_words_exact": 0.791,
+    "onnx_fp32_mb": 6.9,
+    "cpu_ms_in_notebook": 8.7
+  },
+  {
+    "model": "Baseline CNN",
+    "notebook": "bangla-hwr-v5.ipynb",
+    "glyph_top1": 0.5025,
+    "glyph_top3": null,
+    "ece": null,
+    "numbers_exact": null,
+    "random_words_exact": null,
+    "onnx_fp32_mb": null,
+    "cpu_ms_in_notebook": null
+  }
+]

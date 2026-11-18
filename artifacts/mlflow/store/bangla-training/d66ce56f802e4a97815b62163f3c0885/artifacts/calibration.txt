@@ -1,0 +1,1 @@
+Calibration Complete: T1=0.674, T2=0.745 | Weights=0.75/0.25 | Accept>=0.980

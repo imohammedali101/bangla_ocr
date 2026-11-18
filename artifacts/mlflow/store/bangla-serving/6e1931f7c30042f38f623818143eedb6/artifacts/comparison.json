@@ -1,0 +1,38 @@
+[
+  {
+    "key": "model1",
+    "model": "Model 1 \u00b7 Lekha-ResNet",
+    "text": "\u09a8\u09cd\u09a7\u09a1",
+    "confidence": 0.16646341307505905,
+    "decision": "suggest",
+    "ms": 47.98810000647791,
+    "mode": "word",
+    "glyphs": 2,
+    "params_m": 2.863361,
+    "size_mb": 11.453447
+  },
+  {
+    "key": "model2",
+    "model": "Model 2 \u00b7 Lekha-Mobile",
+    "text": "\u09b7\u09cd\u09a0\u09ad",
+    "confidence": 0.5233291976922604,
+    "decision": "suggest",
+    "ms": 10.220299998763949,
+    "mode": "word",
+    "glyphs": 2,
+    "params_m": 1.60756,
+    "size_mb": 6.430241
+  },
+  {
+    "key": "model3",
+    "model": "Model 3 \u00b7 Lekha-CRNN",
+    "text": "\u09ae\u09be\u099a",
+    "confidence": 0.6742281645140434,
+    "decision": "suggest",
+    "ms": 21.615199992083944,
+    "mode": "word",
+    "glyphs": 3,
+    "params_m": 1.73,
+    "size_mb": 6.916435
+  }
+]

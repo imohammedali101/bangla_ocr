@@ -1,0 +1,52 @@
+[
+ {
+  "true": "ন্ধ",
+  "predicted": "ক্ষ",
+  "count": 41
+ },
+ {
+  "true": "ন্দ",
+  "predicted": "ল্প",
+  "count": 23
+ },
+ {
+  "true": "ত",
+  "predicted": "৩",
+  "count": 20
+ },
+ {
+  "true": "ম্ব",
+  "predicted": "ও",
+  "count": 19
+ },
+ {
+  "true": "আ",
+  "predicted": "অ",
+  "count": 15
+ },
+ {
+  "true": "ঞ্জ",
+  "predicted": "ঞ্ছ",
+  "count": 14
+ },
+ {
+  "true": "ক্ষ",
+  "predicted": "ন্ধ",
+  "count": 14
+ },
+ {
+  "true": "ঞ্ছ",
+  "predicted": "ঞ্জ",
+  "count": 13
+ },
+ {
+  "true": "ণ",
+  "predicted": "ন",
+  "count": 12
+ },
+ {
+  "true": "ড",
+  "predicted": "৫",
+  "count": 11
+ }
+]

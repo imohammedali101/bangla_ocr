@@ -1,0 +1,5 @@
+[model2] Ep 16/80 | LR=0.00001 | Loss=0.8605 | Val Acc=81.98% | Val F1=81.99%
+[model2] Ep 32/80 | LR=0.00001 | Loss=0.7051 | Val Acc=87.56% | Val F1=87.56%
+[model2] Ep 48/80 | LR=0.00000 | Loss=0.6640 | Val Acc=88.95% | Val F1=88.94%
+[model2] Ep 64/80 | LR=0.00000 | Loss=0.6514 | Val Acc=89.45% | Val F1=89.46%
+[model2] Ep 80/80 | LR=0.00000 | Loss=0.6482 | Val Acc=89.54% | Val F1=89.55%

@@ -1,0 +1,10 @@
+Device: cuda | Fast Dev Run: False | Character Classes: 85 | CRNN Tokens: 94
+
+Loaded Form-based Marking.xlsx (2000 forms) | Mean Score=2.45/5.00
+Scanning BanglaLekha-Isolated Images root: /kaggle/input/datasets/imohammedali/banglalekha-isolated/BanglaLekha-Isolated/Images
+Dropped 47 files where filename class ID did not match directory name.
+Writer-Independent Split Ready: Train=1591 forms | Val=199 | Test=199 | Total Images=166058
+
+Executing Section 2: Dataset Engineering V1–V7...
+V1 Clean: Dropped 54 blanks, 962 duplicates, 1980 quality-weighted OOF mislabels.
+Engineered Dataset Cached: Train=334257, Val=17006, Test=17092

@@ -1,0 +1,5 @@
+model,notebook,glyph_top1,glyph_top3,ece,numbers_exact,random_words_exact,onnx_fp32_mb,cpu_ms_in_notebook
+Model 1 · Lekha-ResNet,bangla-hwr-v5.ipynb,0.9337000000000001,0.9822,0.0078000000000000005,,,10.92,16.4
+Model 2 · Lekha-Mobile,bangla-hwr-v5.ipynb,0.9053,0.9737,0.0098,,,6.13,10.07
+Model 3 · Lekha-CRNN,bangla-hwr-model3-f.ipynb (training) + bangla-hwr-model3-eval.ipynb (testing),0.9286,0.98,0.0067,0.938,0.791,6.9,8.7
+Baseline CNN,bangla-hwr-v5.ipynb,0.5025,,,,,,

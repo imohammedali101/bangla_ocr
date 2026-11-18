@@ -1,0 +1,23 @@
+                                         top1    top3 macro_f1     ece   exact     cer      f1        n
+Real glyphs (84 classes)               0.9281  0.9798   0.9278  0.0082                          16628.0
+Numbers (1–8 digits)                                                     0.938  0.0214  0.9807   1000.0
+  numbers 1–4 digits                                                    0.9623  0.0159  0.9851    664.0
+  numbers 5–8 digits                                                    0.8899   0.027  0.9761    336.0
+Real words, lexicon decoding                                             0.984   0.008   0.993   1000.0
+  tier A (lexicon)                                                      0.9766  0.0176  0.9845    342.0
+  tier B (lexicon)                                                      0.9878  0.0046  0.9959    658.0
+Real words, free reading (no lexicon)                                    0.931   0.024  0.9775   1000.0
+Pseudo-words, free reading                                               0.771  0.0695  0.9328   1000.0
+  tier A (pseudo)                                                       0.8472  0.0934  0.9066    216.0
+  tier B (pseudo)                                                         0.75   0.067  0.9356    784.0
+
+Glyph accuracy by group / form quality: {'basic': 0.9321, 'numerals': 0.9692, 'compound': 0.9025, 'q_high': 0.973, 'q_mid': 0.9423, 'q_low': 0.8369}
+Per-writer accuracy percentiles (5/25/50/75/95): [0.785, 0.91, 0.952, 0.976, 1.0]
+Top confusions (true → predicted, count): [('ন্ধ', 'ক্ষ', 41), ('ন্দ', 'ল্প', 22), ('ত', '৩', 20), ('ম্ব', 'ও', 19), ('আ', 'অ', 16), ('ক্ষ', 'ন্ধ', 14), ('ঞ্ছ', 'ঞ্জ', 13), ('ঞ্জ', 'ঞ্ছ', 13), ('ল্প', 'ন্দ', 12), ('ঢ', 'চ', 11)]
+FAIL Real glyph top-1 ≥ 96.5%
+FAIL Real glyph top-3 ≥ 99%
+FAIL Real glyph macro-F1 ≥ 0.96
+FAIL Numbers exact ≥ 97%
+FAIL Numbers CER ≤ 1%
+PASS Real words (lexicon) exact ≥ 95%
+FAIL Free-reading word CER ≤ 3%

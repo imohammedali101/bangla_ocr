@@ -1,0 +1,7 @@
+FAIL Real glyph top-1 ≥ 96.5%
+FAIL Real glyph top-3 ≥ 99%
+FAIL Real glyph macro-F1 ≥ 0.96
+FAIL Numbers exact ≥ 97%
+FAIL Numbers CER ≤ 1%
+PASS Held-out words (lexicon) exact ≥ 95%
+FAIL Free-reading word CER ≤ 3%

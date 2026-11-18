@@ -1,0 +1,5 @@
+[baseline] Ep 04/20 | LR=0.00001 | Loss=3.9096 | Val Acc=24.92% | Val F1=21.29%
+[baseline] Ep 08/20 | LR=0.00001 | Loss=3.5395 | Val Acc=37.06% | Val F1=33.74%
+[baseline] Ep 12/20 | LR=0.00000 | Loss=3.3143 | Val Acc=44.73% | Val F1=41.90%
+[baseline] Ep 16/20 | LR=0.00000 | Loss=3.2134 | Val Acc=48.25% | Val F1=45.82%
+[baseline] Ep 20/20 | LR=0.00000 | Loss=3.1911 | Val Acc=49.54% | Val F1=47.28%

@@ -1,0 +1,10 @@
+ONNX vs PyTorch greedy agreement 1.0000 · model3_crnn.onnx: exact 0.883, 8.7 ms · model3_crnn.int8.onnx: exact 0.887, 64.9 ms (1 thread, 64×256) → ship model3_crnn.onnx (6.9 MB)
+real glyphs  : 0.9066666666666666 (top-1, shipped path, random test glyphs)
+numbers      : 0.945
+lexicon words: 0.95
+দুঃখ -> {'text': 'দুঃখ', 'top3': [('দুঃখ', 0.5169031292413986), ('দুখ', 0.40095468760579916), ('দুঃখখ', 0.020609630351420993)], 'confidence': 0.5169031292413986, 'decision': 'suggest'}
+০৮৪৫৬২ -> {'text': '০৮৪৫৬২', 'top3': [('০৮৪৫৬২', 0.9951097559339764), ('০৮৫৫৬২', 0.0013762247509490173), ('০৮৫৬২', 0.0005166417697220958)], 'confidence': 0.9951097559339764, 'decision': 'accept'}
+ধবি -> {'text': 'ধবি', 'top3': [('ধবি', 0.7624114763408238), ('ধরি', 0.11928018505278776), ('ধঝি', 0.026525286741229327)], 'confidence': 0.7624114763408238, 'decision': 'suggest'}
+blank canvas -> {'text': '', 'top3': [], 'confidence': 0.0, 'decision': 'reject'}
+
+release/: ['config.json', 'inference.py', 'labels.json', 'lexicon.txt', 'metrics.json', 'model3.pt', 'model3_crnn.int8.onnx', 'model3_crnn.onnx', 'report.html']

@@ -1,0 +1,11 @@
+--- printed by the training notebook ---
+T = 1.1  Tc = 1.1
+lexicon bonus = 6.0  (lexicon words 0.992 · pseudo-words 0.775)
+{'T': 1.1, 'Tc': 1.1, 'bonus': 6.0, 'tau': {'ink': 0.3, 'char': 0.9600000000000006, 'number': 0.9450000000000007, 'word': 0.9000000000000006}}
+accepted at ≥99% precision → characters 73.7% · numbers 92.0% · words 66.7%
+
+--- printed by the testing notebook ---
+T = 1.1  Tc = 1.1  Ta = 0.7  head weight wa = 0.25  | val glyph top-1: CTC 0.9393 · head 0.9357 · blend 0.9393
+lexicon bonus = 4.0  (lexicon words 0.997 · pseudo-words 0.778)
+{'T': 1.1, 'Tc': 1.1, 'Ta': 0.7, 'wa': 0.25, 'bonus': 4.0, 'tau': {'ink': 0.3, 'char': 0.9600000000000006, 'number': 0.9450000000000007, 'word': 0.9000000000000006}}
+accepted at ≥99% precision → characters 74.4% · numbers 92.0% · words 68.5%

@@ -1,0 +1,5 @@
+[model1] Ep 12/60 | LR=0.00001 | Loss=1.7479 | Val Acc=88.97% | Val F1=88.98%
+[model1] Ep 24/60 | LR=0.00001 | Loss=1.5152 | Val Acc=91.54% | Val F1=91.54%
+[model1] Ep 36/60 | LR=0.00000 | Loss=1.4856 | Val Acc=92.17% | Val F1=92.17%
+[model1] Ep 48/60 | LR=0.00000 | Loss=1.5355 | Val Acc=92.43% | Val F1=92.43%
+[model1] Ep 60/60 | LR=0.00000 | Loss=1.1464 | Val Acc=92.86% | Val F1=92.84%
